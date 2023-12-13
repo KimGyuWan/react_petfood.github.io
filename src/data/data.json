@@ -1,83 +1,83 @@
 {
-  "topad": [
+  "top_banner": [
     {
-      "nm": "하림펫푸드 제품 첫 구매 시 간식 100원 이벤트",
-      "cls": "bgactiveColor text-center p-1",
-      "href": ""
+      "top_banner_nm": "하림펫푸드 제품 첫 구매 시 간식 100원 이벤트",
+      "top_banner_cls": "bgactiveColor text-center p-1",
+      "top_banner_href": ""
     }
   ],
   "gnb": [
     {
-      "nm": "이벤트",
-      "href": "#slide-banner",
-      "cls": "text-dark position-relative",
-      "target": "_blank"
+      "gnb_nm": "이벤트",
+      "gnb_href": "#slide-banner",
+      "gnb_cls": "text-dark position-relative",
+      "gnb_target": "_blank"
     },
     {
-      "nm": "하림펫푸드",
-      "href": "#section-brand",
-      "cls": "text-dark position-relative",
-      "target": "_blank"
+      "gnb_nm": "하림펫푸드",
+      "gnb_href": "#section-brand",
+      "gnb_cls": "text-dark position-relative",
+      "gnb_target": "_blank"
     },
     {
-      "nm": "제품",
-      "href": "#section-item",
-      "cls": "text-dark position-relative",
-      "target": "_blank"
+      "gnb_nm": "제품",
+      "gnb_href": "#section-item",
+      "gnb_cls": "text-dark position-relative",
+      "gnb_target": "_blank"
     },
     {
-      "nm": "후기",
-      "href": "#section-instagram",
-      "cls": "text-dark position-relative",
-      "target": "_blank"
+      "gnb_nm": "후기",
+      "gnb_href": "#section-instagram",
+      "gnb_cls": "text-dark position-relative",
+      "gnb_target": "_blank"
     },
     {
-      "nm": "체험",
-      "href": "#form",
-      "cls": "text-dark position-relative",
-      "target": "_blank"
+      "gnb_nm": "체험",
+      "gnb_href": "#form",
+      "gnb_cls": "text-dark position-relative",
+      "gnb_target": "_blank"
     }
   ],
-  "slidebanner": [
+  "slide_banner": [
     {
-      "h3": "반짝 배송 OPEN",
-      "p": "오늘 주문, 반짝하면 새벽 도착!",
-      "href": "",
-      "src": "./img/yeonsoo/slide1.png",
-      "alt": "슬라이드1",
-      "cls": "title-box position-absolute title-left"
+      "slide_banner_h3": "반짝 배송 OPEN",
+      "slide_banner_p": "오늘 주문, 반짝하면 새벽 도착!",
+      "slide_banner_href": "",
+      "slide_banner_src": "./img/yeonsoo/slide1.png",
+      "slide_banner_alt": "슬라이드1",
+      "slide_banner_cls": "title-box position-absolute title-left"
     },
     {
-      "h3": "설레는 봄 | 할인해 봄",
-      "p": "봄맞이 최대 50% 할인 혜택 받으세요",
-      "href": "",
-      "src": "./img/yeonsoo/slide2.png",
-      "alt": "슬라이드2",
-      "cls": "title-box position-absolute title-left"
+      "slide_banner_h3": "설레는 봄 | 할인해 봄",
+      "slide_banner_p": "봄맞이 최대 50% 할인 혜택 받으세요",
+      "slide_banner_href": "",
+      "slide_banner_src": "./img/yeonsoo/slide2.png",
+      "slide_banner_alt": "슬라이드2",
+      "slide_banner_cls": "title-box position-absolute title-left"
     },
     {
-      "h3": "신선함이 가득한 | 당일생산",
-      "p": "하림펫푸드는 사료가 아니다 | 음식이다",
-      "href": "",
-      "src": "./img/yeonsoo/slide3.png",
-      "alt": "슬라이드3",
-      "cls": "title-box position-absolute title-black title-left"
+      "slide_banner_h3": "신선함이 가득한 | 당일생산",
+      "slide_banner_p": "하림펫푸드는 사료가 아니다 | 음식이다",
+      "slide_banner_href": "",
+      "slide_banner_src": "./img/yeonsoo/slide3.png",
+      "slide_banner_alt": "슬라이드3",
+      "slide_banner_cls": "title-box position-absolute title-black title-left"
     },
     {
-      "h3": "댕냥이 | 동안 선발대회",
-      "p": "#하림팻푸드 댕냥이 동안선발대회 | 반려동물 자랑도 하고 간식도 받고!",
-      "href": "",
-      "src": "./img/yeonsoo/slide4.png",
-      "alt": "슬라이드4",
-      "cls": "title-box position-absolute title-right"
+      "slide_banner_h3": "댕냥이 | 동안 선발대회",
+      "slide_banner_p": "#하림팻푸드 댕냥이 동안선발대회 | 반려동물 자랑도 하고 간식도 받고!",
+      "slide_banner_href": "",
+      "slide_banner_src": "./img/yeonsoo/slide4.png",
+      "slide_banner_alt": "슬라이드4",
+      "slide_banner_cls": "title-box position-absolute title-right"
     },
     {
-      "h3": "멍이냥이얌얌 | 리뷰 EVENT",
-      "p": "하림펫푸드 제품 리뷰 작성시 | 추첨을 통해 간식 샘플 증정",
-      "href": "",
-      "src": "./img/yeonsoo/slide5.png",
-      "alt": "슬라이드5",
-      "cls": "title-box position-absolute title-right"
+      "slide_banner_h3": "멍이냥이얌얌 | 리뷰 EVENT",
+      "slide_banner_p": "하림펫푸드 제품 리뷰 작성시 | 추첨을 통해 간식 샘플 증정",
+      "slide_banner_href": "",
+      "slide_banner_src": "./img/yeonsoo/slide5.png",
+      "slide_banner_alt": "슬라이드5",
+      "slide_banner_cls": "title-box position-absolute title-right"
     }
   ],
   "linebanner": {
@@ -152,263 +152,259 @@
       }
     ]
   },
-  "sectionitem": {
-    "mainlist": [
-      {
-        "cls": "tap active",
-        "nm": "#우리 아이들도 100세까지",
-        "href": ".no0"
-      },
-      {
-        "cls": "tap",
-        "nm": "#간식 / 영양제",
-        "href": ".no1"
-      },
-      {
-        "cls": "tap",
-        "nm": "#휴먼그레이드 PICK",
-        "href": ".no2"
-      },
-      {
-        "cls": "tap",
-        "nm": "#가장 맛있는 시간 30일",
-        "href": ".no3"
-      },
-      {
-        "cls": "tap",
-        "nm": "#하림펫푸드 PICK ITEM",
-        "href": ".no4"
-      }
-    ],
-    "listgroup": [
-      {
-        "cls": "col-6 no0",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li1/list1_1.jpg",
-        "alt": "list1_1"
-      },
-      {
-        "cls": "col-6 no0",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li1/list1_2.jpg",
-        "alt": "list1_2"
-      },
-      {
-        "cls": "col-6 no0",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li1/list1_3.jpg",
-        "alt": "list1_3"
-      },
-      {
-        "cls": "col-6 no0",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li1/list1_4.jpg",
-        "alt": "list1_4"
-      },
-      {
-        "cls": "col-6 no0",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li1/list1_5.jpg",
-        "alt": "list1_5"
-      },
-      {
-        "cls": "col-6 no0",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li1/list1_6.jpg",
-        "alt": "list1_6"
-      },
-      {
-        "cls": "col-6 no1",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list2_1.jpg",
-        "alt": "list2_1"
-      },
-      {
-        "cls": "col-6 no1",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list2_2.jpg",
-        "alt": "list2_2"
-      },
-      {
-        "cls": "col-6 no1",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list2_3.jpg",
-        "alt": "list2_3"
-      },
-      {
-        "cls": "col-6 no1",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list2_4.jpg",
-        "alt": "list2_4"
-      },
-      {
-        "cls": "col-6 no1",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list2_5.jpg",
-        "alt": "list2_5"
-      },
-      {
-        "cls": "col-6 no1",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list2_6.jpg",
-        "alt": "list2_6"
-      },
-      {
-        "cls": "col-6 no2",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list3_1.jpg",
-        "alt": "list3_1"
-      },
-      {
-        "cls": "col-6 no2",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list3_2.jpg",
-        "alt": "list3_2"
-      },
-      {
-        "cls": "col-6 no2",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list3_3.jpg",
-        "alt": "list3_3"
-      },
-      {
-        "cls": "col-6 no2",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list3_4.jpg",
-        "alt": "list3_4"
-      },
-      {
-        "cls": "col-6 no2",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list3_5.jpg",
-        "alt": "list3_5"
-      },
-      {
-        "cls": "col-6 no2",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list3_6.jpg",
-        "alt": "list3_6"
-      },
-      {
-        "cls": "col-6 no3",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list4_1.jpg",
-        "alt": "list4_1"
-      },
-      {
-        "cls": "col-6 no3",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list4_2.jpg",
-        "alt": "list4_2"
-      },
-      {
-        "cls": "col-6 no3",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list4_3.jpg",
-        "alt": "list4_3"
-      },
-      {
-        "cls": "col-6 no3",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list4_4.jpg",
-        "alt": "list4_4"
-      },
-      {
-        "cls": "col-6 no3",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list4_5.jpg",
-        "alt": "list4_5"
-      },
-      {
-        "cls": "col-6 no3",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list4_6.jpg",
-        "alt": "list4_6"
-      },
-      {
-        "cls": "col-6 no4",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list5_1.jpg",
-        "alt": "list5_1"
-      },
-      {
-        "cls": "col-6 no4",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list5_2.jpg",
-        "alt": "list5_2"
-      },
-      {
-        "cls": "col-6 no4",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list5_3.jpg",
-        "alt": "list5_3"
-      },
-      {
-        "cls": "col-6 no4",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list5_4.jpg",
-        "alt": "list5_4"
-      },
-      {
-        "cls": "col-6 no4",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list5_5.jpg",
-        "alt": "list5_5"
-      },
-      {
-        "cls": "col-6 no4",
-        "href": "#none",
-        "src": "./img/gyuwan/product/li2/list5_6.jpg",
-        "alt": "list5_6"
-      }
-    ]
-  },
-  "sectioninstagram": {
-    "instagroup": [
-      {
-        "src": "./img/gyuwan/instagram/instagram1.jpg",
-        "alt": "인스타후기사진1"
-      },
-      {
-        "src": "./img/gyuwan/instagram/instagram2.jpg",
-        "alt": "인스타후기사진2"
-      },
-      {
-        "src": "./img/gyuwan/instagram/instagram3.jpg",
-        "alt": "인스타후기사진3"
-      },
-      {
-        "src": "./img/gyuwan/instagram/instagram4.jpg",
-        "alt": "인스타후기사진4"
-      },
-      {
-        "src": "./img/gyuwan/instagram/instagram5.jpg",
-        "alt": "인스타후기사진5"
-      }
-    ],
-    "instagroup2": [
-      {
-        "src": "./img/gyuwan/instagram/instagram6.jpg",
-        "alt": "인스타후기사진6"
-      },
-      {
-        "src": "./img/gyuwan/instagram/instagram7.jpg",
-        "alt": "인스타후기사진7"
-      },
-      {
-        "src": "./img/gyuwan/instagram/instagram8.jpg",
-        "alt": "인스타후기사진8"
-      },
-      {
-        "src": "./img/gyuwan/instagram/instagram9.jpg",
-        "alt": "인스타후기사진9"
-      },
-      {
-        "src": "./img/gyuwan/instagram/instagram10.jpg",
-        "alt": "인스타후기사진10"
-      }
-    ]
-  },
+  "item_mainlist": [
+    {
+      "item_mainlist_cls": "tap active",
+      "item_mainlist_nm": "#우리 아이들도 100세까지",
+      "item_mainlist_href": ".no0"
+    },
+    {
+      "item_mainlist_cls": "tap",
+      "item_mainlist_nm": "#간식 / 영양제",
+      "item_mainlist_href": ".no1"
+    },
+    {
+      "item_mainlist_cls": "tap",
+      "item_mainlist_nm": "#휴먼그레이드 PICK",
+      "item_mainlist_href": ".no2"
+    },
+    {
+      "item_mainlist_cls": "tap",
+      "item_mainlist_nm": "#가장 맛있는 시간 30일",
+      "item_mainlist_href": ".no3"
+    },
+    {
+      "item_mainlist_cls": "tap",
+      "item_mainlist_nm": "#하림펫푸드 PICK ITEM",
+      "item_mainlist_href": ".no4"
+    }
+  ],
+  "item_listgroup": [
+    {
+      "item_listgroup_cls": "col-6 no0",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li1/list1_1.jpg",
+      "item_listgroup_alt": "list1_1"
+    },
+    {
+      "item_listgroup_cls": "col-6 no0",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li1/list1_2.jpg",
+      "item_listgroup_alt": "list1_2"
+    },
+    {
+      "item_listgroup_cls": "col-6 no0",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li1/list1_3.jpg",
+      "item_listgroup_alt": "list1_3"
+    },
+    {
+      "item_listgroup_cls": "col-6 no0",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li1/list1_4.jpg",
+      "item_listgroup_alt": "list1_4"
+    },
+    {
+      "item_listgroup_cls": "col-6 no0",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li1/list1_5.jpg",
+      "item_listgroup_alt": "list1_5"
+    },
+    {
+      "item_listgroup_cls": "col-6 no0",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li1/list1_6.jpg",
+      "item_listgroup_alt": "list1_6"
+    },
+    {
+      "item_listgroup_cls": "col-6 no1",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list2_1.jpg",
+      "item_listgroup_alt": "list2_1"
+    },
+    {
+      "item_listgroup_cls": "col-6 no1",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list2_2.jpg",
+      "item_listgroup_alt": "list2_2"
+    },
+    {
+      "item_listgroup_cls": "col-6 no1",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list2_3.jpg",
+      "item_listgroup_alt": "list2_3"
+    },
+    {
+      "item_listgroup_cls": "col-6 no1",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list2_4.jpg",
+      "item_listgroup_alt": "list2_4"
+    },
+    {
+      "item_listgroup_cls": "col-6 no1",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list2_5.jpg",
+      "item_listgroup_alt": "list2_5"
+    },
+    {
+      "item_listgroup_cls": "col-6 no1",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list2_6.jpg",
+      "item_listgroup_alt": "list2_6"
+    },
+    {
+      "item_listgroup_cls": "col-6 no2",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list3_1.jpg",
+      "item_listgroup_alt": "list3_1"
+    },
+    {
+      "item_listgroup_cls": "col-6 no2",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list3_2.jpg",
+      "item_listgroup_alt": "list3_2"
+    },
+    {
+      "item_listgroup_cls": "col-6 no2",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list3_3.jpg",
+      "item_listgroup_alt": "list3_3"
+    },
+    {
+      "item_listgroup_cls": "col-6 no2",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list3_4.jpg",
+      "item_listgroup_alt": "list3_4"
+    },
+    {
+      "item_listgroup_cls": "col-6 no2",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list3_5.jpg",
+      "item_listgroup_alt": "list3_5"
+    },
+    {
+      "item_listgroup_cls": "col-6 no2",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list3_6.jpg",
+      "item_listgroup_alt": "list3_6"
+    },
+    {
+      "item_listgroup_cls": "col-6 no3",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list4_1.jpg",
+      "item_listgroup_alt": "list4_1"
+    },
+    {
+      "item_listgroup_cls": "col-6 no3",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list4_2.jpg",
+      "item_listgroup_alt": "list4_2"
+    },
+    {
+      "item_listgroup_cls": "col-6 no3",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list4_3.jpg",
+      "item_listgroup_alt": "list4_3"
+    },
+    {
+      "item_listgroup_cls": "col-6 no3",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list4_4.jpg",
+      "item_listgroup_alt": "list4_4"
+    },
+    {
+      "item_listgroup_cls": "col-6 no3",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list4_5.jpg",
+      "item_listgroup_alt": "list4_5"
+    },
+    {
+      "item_listgroup_cls": "col-6 no3",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list4_6.jpg",
+      "item_listgroup_alt": "list4_6"
+    },
+    {
+      "item_listgroup_cls": "col-6 no4",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list5_1.jpg",
+      "item_listgroup_alt": "list5_1"
+    },
+    {
+      "item_listgroup_cls": "col-6 no4",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list5_2.jpg",
+      "item_listgroup_alt": "list5_2"
+    },
+    {
+      "item_listgroup_cls": "col-6 no4",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list5_3.jpg",
+      "item_listgroup_alt": "list5_3"
+    },
+    {
+      "item_listgroup_cls": "col-6 no4",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list5_4.jpg",
+      "item_listgroup_alt": "list5_4"
+    },
+    {
+      "item_listgroup_cls": "col-6 no4",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list5_5.jpg",
+      "item_listgroup_alt": "list5_5"
+    },
+    {
+      "item_listgroup_cls": "col-6 no4",
+      "item_listgroup_href": "#none",
+      "item_listgroup_src": "./img/gyuwan/product/li2/list5_6.jpg",
+      "item_listgroup_alt": "list5_6"
+    }
+  ],
+  "instagram_instagroup1": [
+    {
+      "instagram_instagroup1_src": "./img/gyuwan/instagram/instagram1.jpg",
+      "instagram_instagroup1_alt": "인스타후기사진1"
+    },
+    {
+      "instagram_instagroup1_src": "./img/gyuwan/instagram/instagram2.jpg",
+      "instagram_instagroup1_alt": "인스타후기사진2"
+    },
+    {
+      "instagram_instagroup1_src": "./img/gyuwan/instagram/instagram3.jpg",
+      "instagram_instagroup1_alt": "인스타후기사진3"
+    },
+    {
+      "instagram_instagroup1_src": "./img/gyuwan/instagram/instagram4.jpg",
+      "instagram_instagroup1_alt": "인스타후기사진4"
+    },
+    {
+      "instagram_instagroup1_src": "./img/gyuwan/instagram/instagram5.jpg",
+      "instagram_instagroup1_alt": "인스타후기사진5"
+    }
+  ],
+  "instagram_instagroup2": [
+    {
+      "instagram_instagroup2_src": "./img/gyuwan/instagram/instagram6.jpg",
+      "instagram_instagroup2_alt": "인스타후기사진6"
+    },
+    {
+      "instagram_instagroup2_src": "./img/gyuwan/instagram/instagram7.jpg",
+      "instagram_instagroup2_alt": "인스타후기사진7"
+    },
+    {
+      "instagram_instagroup2_src": "./img/gyuwan/instagram/instagram8.jpg",
+      "instagram_instagroup2_alt": "인스타후기사진8"
+    },
+    {
+      "instagram_instagroup2_src": "./img/gyuwan/instagram/instagram9.jpg",
+      "instagram_instagroup2_alt": "인스타후기사진9"
+    },
+    {
+      "instagram_instagroup2_src": "./img/gyuwan/instagram/instagram10.jpg",
+      "instagram_instagroup2_alt": "인스타후기사진10"
+    }
+  ],
   "sectioncsr": {
     "h2": "CSR 캠페인",
     "content": [
