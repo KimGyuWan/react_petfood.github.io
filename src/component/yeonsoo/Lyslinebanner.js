@@ -1,11 +1,12 @@
 import React from 'react'
 
+
 function Lyslinebanner(props) {
     return (
         <section id='line-banner'>
             <div className='container position-relative d-flex align-items-center justify-content-between'>
                 <h2>{props.datasrc.h2}</h2>
-                <div class='member d-flex align-items-center'>
+                <div className='member d-flex align-items-center'>
                     <button className='position-relative'>
                         <i className='bi bi-plus position-absolute'>
                             <span className='ir-hidden'>클릭해서 자세히보기</span>
