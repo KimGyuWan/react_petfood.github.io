@@ -18,8 +18,8 @@ import Form from './component/dongmin/Form';
 // joonsung
 import Header from './component/joonsung/Header';
 
-import datainfo from "./data/data.json";
-
+//data
+import datainfo from './data/data.json'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
