@@ -22,9 +22,12 @@ import Header from './component/joonsung/Header';
 //data
 import datainfo from './data/data.json'
 
+import Item from './component/gyuwan/Iitem';
+import Instagram from './component/gyuwan/Instagram'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <BrowserRouter>
     <Header dataAd={datainfo.top_banner[0]} dataGnb={datainfo.gnb}></Header>
     <Lysswiper />
