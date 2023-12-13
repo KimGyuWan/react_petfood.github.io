@@ -1,10 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+
+// yeonsoo
+import Lyslinebanner from './component/yeonsoo/Lyslinebanner';
+
+//data
+import datainfo from './data/data.json'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <App />
+  <>
+    <Lyslinebanner datasrc={datainfo.linebanner} />
+  </>
 );
 
 
