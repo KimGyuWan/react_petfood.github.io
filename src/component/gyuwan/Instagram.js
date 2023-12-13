@@ -2,9 +2,10 @@ import React from 'react';
 import instagramstyle from './instagram.module.scss';
 
 function Instagram() {
-    return (
-        
-    )
+  return (
+    <>
+    </>
+  )
 }
 
 export default Instagram
