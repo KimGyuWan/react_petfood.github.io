@@ -1,9 +1,10 @@
 import React from 'react'
+import '../../scss/Footer.scss'
 
 
 function Lyslinebanner(props) {
     return (
-        <section id='line-banner'>
+        <section id='line_banner'>
             <div className='container position-relative d-flex align-items-center justify-content-between'>
                 <h2>{props.datasrc.h2}</h2>
                 <div className='member d-flex align-items-center'>
