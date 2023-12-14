@@ -11,11 +11,17 @@ import Lysswiper from './component/yeonsoo/Lysswiper';
 import Item from './component/gyuwan/Item';
 import Instagram from './component/gyuwan/Instagram';
 
+// dongmin
+import Brand from './component/dongmin/Brand';
+
+import datainfo from './data/data.json';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Lysswiper />
     <Lyslinebanner />
+    <Brand data={datainfo}></Brand>
     <Item />
     <Instagram />
     <Lysfooter />
