@@ -46,11 +46,11 @@ function Lysfooter(props) {
                 </div>
             </div>
             <div className="container d-flex justify-content-end align-items-center">
-                <ul className="icon d-flex justify-content-end">
+                <ul className="icon d-flex justify-content-end align-items-center">
                     {
                         props.datasrc.tabicon.map((el, idx) => {
                             return (
-                                <li key={idx}><a href={el.href}><span className="ir-hidden">{el.span}</span></a></li>
+                                <li className='position-relative' key={idx}><a href={el.href}><span className="ir-hidden">{el.span}</span></a></li>
                             )
                         })
                     }
