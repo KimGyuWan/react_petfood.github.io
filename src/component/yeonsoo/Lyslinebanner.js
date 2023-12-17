@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../scss/Footer.scss'
+import './slidebanner.scss'
 
 
 function Lyslinebanner(props) {
@@ -13,7 +13,7 @@ function Lyslinebanner(props) {
                             <span className='ir-hidden'>클릭해서 자세히보기</span>
                         </i>
                     </button>
-                    <ul className="row justify-content-center">
+                    <ul className="d-flex justify-content-center">
                         {
                             props.datasrc.i.map((el, idx) => {
                                 return <li key={idx}><i className={el.cls}><span className='ir-hidden'>{el.span}</span></i></li>

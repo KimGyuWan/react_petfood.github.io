@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../../scss/Footer.scss'
+import './footer.scss'
 
 function Lysfooter(props) {
     return (

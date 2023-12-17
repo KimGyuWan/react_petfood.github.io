@@ -122,21 +122,18 @@
     margin-left: 0.5rem;
 }
 
-#ft ul.icon li>a {
-    padding: 1.2rem;
+#ft ul.icon li a:after {
+    font-family: bootstrap-icons !important;
     width: 2.5rem;
     height: 2.5rem;
     display: block;
-    background-image: url(../../public/img/yeonsoo/youtubelogo.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    content: "\F344";
 }
 
-#ft ul.icon li.ins>a {
-    background-image: url(../../public/img/yeonsoo/instalogo.png);
+#ft ul.icon li:nth-of-type(2) a::after {
+    content: "\F437";
 }
 
-
-#ft ul.icon li.youtub>a {
-    background-image: url(../../public/img/yeonsoo/youtubelogo.png);
+#ft ul.icon li:nth-of-type(3) a::after {
+    content: "\F62B";
 }
