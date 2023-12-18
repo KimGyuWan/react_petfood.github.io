@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-import Brand from './component/dongmin/Brand';
 import datainfo from './data/data.json'
+import Form from './component/dongmin/Form';
+import Bbrand from './component/dongmin/Bbrand';
+
 
 
 
@@ -10,7 +11,8 @@ import datainfo from './data/data.json'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <Brand data={datainfo}></Brand>
+    <Bbrand data={datainfo}></Bbrand>
+    <Form></Form>
 
   </>
 
