@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+
+// sanho.component,  sanho.data
+import Sectioncsrindex from './component/sanho/Sectioncsr';
+import datajson from './data/data.json'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <App />
-);
+ <Sectioncsrindex datalet={datajson.sectioncsr}></Sectioncsrindex>
+  );
 
 
