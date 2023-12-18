@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 
 // yeonsoo
 import Lyslinebanner from './component/yeonsoo/Lyslinebanner';
@@ -12,11 +13,11 @@ import datainfo from './data/data.json'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
+  <BrowserRouter>
     <Lysswiper datasrc={datainfo.slide_banner} />
     <Lyslinebanner datasrc={datainfo.linebanner} />
     <Lysfooter datasrc={datainfo.footer} />
-  </>
+  </BrowserRouter>
 );
 
 
