@@ -1,25 +1,75 @@
 * {
     font-family: 'Noto Sans KR', sans-serif;
-}
-
-.section {
-    position: relative;
-    justify-content: end;
 
 }
 
+// brand
+.our {
+    transform: translate(-40px, 20px);
+}
 
-.brand-item {
-    position: relative;
+#section-brand h2 {
+    color: black;
     text-align: center;
-    left: 30%;
+    margin-bottom: 20px;
 }
 
-.Br h2 {
-    position: absolute;
-    text-align: center;
-    z-index: 10000;
-    top: 20px;
-    left: 25%;
-    font-size: 2rem;
+
+
+.sh h3 {
+    color: #da291c;
 }
+
+
+#section-brand .dp {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#section-brand .swiper-slide {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.sh {
+    text-align: center;
+    font-size: 24px;
+    transform: translateY(50%);
+    transition: 1s;
+    opacity: 1;
+    margin: 20px;
+}
+
+#section-brand .swiper-button-prev,
+#section-brand .swiper-button-next {
+    top: 45%;
+    color: #da291c;
+
+}
+
+#section-brand .swiper-button-prev::after,
+#section-brand .swiper-button-next::after {
+    position: relative;
+    font-size: 3rem;
+}
+
+#section-brand .swiper-slide-active .sh {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+
+.swiper-button-next {
+    right: 20%;
+    transform: translateX(50%);
+}
+
+#section-brand .swiper-button-prev {
+    left: 18%;
+    transform: translateX(50%);
+}
+
+// form
