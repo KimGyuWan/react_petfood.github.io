@@ -1,8 +1,10 @@
 import React, { useState, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore from 'swiper';
 
 import { Navigation, Pagination, EffectFade, Autoplay } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
+import clsx from 'clsx';
 
 import 'swiper/css';
 import 'swiper/css/effect-fade';
@@ -15,10 +17,12 @@ const SwiperComponent = (props) => {
     const [isPlaying, setIsPlaying] = useState(false);
     const swiperRef = useRef(null);
 
+    const [swiperIndex, setSwiperIndex] = useState(0);
 
     const togglePlay = () => {
         const buttonToggle = document.querySelector('.toggle')
         const swiperInstance = swiperRef.current.swiper;
+
         if (isPlaying) {
             swiperInstance.autoplay.stop();
             buttonToggle.classList.remove('on')
@@ -30,10 +34,16 @@ const SwiperComponent = (props) => {
 
     };
 
+
+
+
+
     return (
-        <section id='slide_banner'>
+        <section id='slide_banner' className={clsx('active' + swiperIndex)}>
             <div className='container'>
                 <Swiper
+                    onActiveIndexChange={(swiperCore) => { setSwiperIndex(swiperCore.realIndex) }}
+
                     ref={swiperRef}
                     modules={[EffectFade, Autoplay, Navigation, Pagination]} effect="fade"
                     autoplay={{
@@ -46,6 +56,7 @@ const SwiperComponent = (props) => {
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                     loop={true}
+
                 >
                     {
                         props.datasrc.map((el, idx) => {
@@ -62,7 +73,6 @@ const SwiperComponent = (props) => {
                     }
                     <div className='btns position-absolute'>
                         <button className='toggle position-relative' onClick={togglePlay}>
-
                         </button>
                     </div>
 
