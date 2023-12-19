@@ -10,6 +10,7 @@
         color: black;
         text-align: center;
         margin-bottom: 20px;
+        margin-right: 50px;
     }
 
     .sh h3 {
@@ -28,6 +29,7 @@
     .dp {
         text-align: center;
         margin-top: 30px;
+        margin-right: 110px;
     }
 
     .swiper-slide {
@@ -46,7 +48,7 @@
 
     .swiper-button-prev::after,
     .swiper-button-next::after {
-        position: relative;
+        position: absolute;
         font-size: 3rem;
     }
 
@@ -56,11 +58,11 @@
     }
 
     .swiper-button-prev::after {
-        left: 200px;
+        left: 500px;
     }
 
     .swiper-button-next::after {
-        right: 200px;
+        right: 450px;
     }
 
 }
@@ -221,6 +223,8 @@ span {
     opacity: 0.7;
     cursor: not-allowed;
 }
+
+
 
 #formhd h2,
 p {
