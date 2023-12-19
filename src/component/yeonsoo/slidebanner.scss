@@ -76,17 +76,9 @@
 
 #slide_banner .btns {
     padding: 0;
-    left: 50%;
-    transform: translate(-50%, 0);
+    left: 56%;
     z-index: 100;
-    bottom: 3rem;
-}
-
-#slide_banner .btns .swiper-pagination {
-    position: unset;
-    text-align: unset;
-    width: auto;
-    align-items: center;
+    bottom: 3.2rem;
 }
 
 #slide_banner .btns button {
@@ -94,6 +86,7 @@
     border: none;
     width: 2rem;
     height: 2rem;
+
 }
 
 #slide_banner .btns .toggle::after {

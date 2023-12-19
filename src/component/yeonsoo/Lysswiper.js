@@ -1,5 +1,8 @@
+import React, { useState, useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 import { Navigation, Pagination, EffectFade, Autoplay } from 'swiper/modules';
+import 'swiper/swiper-bundle.css';
 
 import 'swiper/css';
 import 'swiper/css/effect-fade';
@@ -8,17 +11,30 @@ import 'swiper/css/pagination';
 import './slidebanner.scss';
 
 
+const SwiperComponent = (props) => {
+    const [isPlaying, setIsPlaying] = useState(false);
+    const swiperRef = useRef(null);
 
 
+    const togglePlay = () => {
+        const buttonToggle = document.querySelector('.toggle')
+        const swiperInstance = swiperRef.current.swiper;
+        if (isPlaying) {
+            swiperInstance.autoplay.stop();
+            buttonToggle.classList.remove('on')
+        } else {
+            swiperInstance.autoplay.start();
+            buttonToggle.classList.add('on')
+        }
+        setIsPlaying(!isPlaying);
 
+    };
 
-
-
-export default (props) => {
     return (
         <section id='slide_banner'>
             <div className='container'>
                 <Swiper
+                    ref={swiperRef}
                     modules={[EffectFade, Autoplay, Navigation, Pagination]} effect="fade"
                     autoplay={{
                         delay: 2500,
@@ -44,12 +60,18 @@ export default (props) => {
                             </SwiperSlide>
                         })
                     }
+                    <div className='btns position-absolute'>
+                        <button className='toggle position-relative' onClick={togglePlay}>
+
+                        </button>
+                    </div>
 
                 </Swiper>
+
             </div>
         </section>
     );
-
 };
 
+export default SwiperComponent;
 
