@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react_petfood.github.io/static/css/main.0bf975ae.css",
+    "main.js": "/react_petfood.github.io/static/js/main.5f349e16.js",
+    "index.html": "/react_petfood.github.io/index.html",
+    "main.0bf975ae.css.map": "/react_petfood.github.io/static/css/main.0bf975ae.css.map",
+    "main.5f349e16.js.map": "/react_petfood.github.io/static/js/main.5f349e16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bf975ae.css",
+    "static/js/main.5f349e16.js"
+  ]
+}
