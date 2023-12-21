@@ -23,7 +23,6 @@ root.render(
     <Lysfooter datasrc={datainfo.footer} />
     <Item dataMain={data.item_mainlist} dataList={data.item_listgroup} />
     <Instagram />
-    <App />
   </BrowserRouter>
 );
 
