@@ -14,7 +14,8 @@ import './slidebanner.scss';
 import data from '../../data/data.json';
 
 const SwiperComponent = () => {
-  const datasrc = data.slide_banner
+  const datasrc = data.slide_banner;
+
   const [isPlaying, setIsPlaying] = useState(false);
   const swiperRef = useRef(null);
 

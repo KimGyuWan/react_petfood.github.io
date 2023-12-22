@@ -12,21 +12,20 @@ import Item from './component/gyuwan/Item';
 import Instagram from './component/gyuwan/Instagram';
 
 // dongmin
-import Brand from './component/dongmin/Brand';
+import Brand from './component/dongmin/Bbrand';
+import Form from './component/dongmin/Form';
 
-import datainfo from './data/data.json';
 
-import Item from './component/gyuwan/Iitem';
-import Instagram from './component/gyuwan/Instagram'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Lysswiper />
     <Lyslinebanner />
-    <Brand data={datainfo}></Brand>
+    <Brand></Brand>
     <Item />
     <Instagram />
+    <Form></Form>
     <Lysfooter />
   </BrowserRouter>
 );

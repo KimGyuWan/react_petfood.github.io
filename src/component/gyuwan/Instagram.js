@@ -9,7 +9,7 @@ import { Autoplay } from 'swiper/modules';
 
 import data from '../../data/data.json';
 
-export default () => {
+function Instagram() {
 
   const data1 = data.instagram_instagroup1;
   const data2 = data.instagram_instagroup2;
@@ -98,3 +98,5 @@ export default () => {
     </>
   );
 };
+
+export default Instagram;
