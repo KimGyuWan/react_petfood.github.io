@@ -82,3 +82,6 @@ body * {
     height: 1px;
     margin: -1px;
 }
+li{
+    list-style: none;
+}
