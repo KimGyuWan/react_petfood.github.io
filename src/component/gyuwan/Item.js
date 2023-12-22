@@ -2,9 +2,13 @@ import React, { useState } from 'react';
 import './item.scss';
 import Productimg from './productimg/Productimg';
 
+import data from '../../data/data.json';
 
-function Item(props) {
+function Item() {
   const [tabNum, settabNum] = useState("no0");
+
+  const dataMain = data.item_mainlist;
+  const dataList = data.item_listgroup;
 
   return (
     <>
@@ -22,7 +26,7 @@ function Item(props) {
             {/* setInterval로 메뉴 전환시키기 */}
             <ul class="mainlist">
               {
-                props.dataMain.map((el, idx) => {
+                dataMain.map((el, idx) => {
                   return (
                     <li className={el.item_mainlist_cls} key={idx}><button className={el.item_mainlist_href} onClick={() => { settabNum(el.item_mainlist_href) }}>{el.item_mainlist_nm}</button></li>
                   )
@@ -34,11 +38,11 @@ function Item(props) {
           <div class="itemgroup">
             <div class="listgroup row mx-0">
               {
-                props.dataList.map((el, idx) => {
+                dataList.map((el, idx) => {
                   return (
                     <>
                       {tabNum === el.item_mainlist_href ?
-                        <Productimg dataList={el} /> : null
+                        <Productimg dataList={el} key={idx} /> : null
                       }
                     </>
                   )

@@ -7,7 +7,12 @@ import 'swiper/css';
 import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
 
-export default (props) => {
+import data from '../../data/data.json';
+
+export default () => {
+
+  const data1 = data.instagram_instagroup1;
+  const data2 = data.instagram_instagroup2;
 
   const speed = 10000;
 
@@ -53,7 +58,7 @@ export default (props) => {
             onSwiper={(swiper) => console.log(swiper)}
           >
             {
-              props.datainsta1.map((el, idx) => {
+              data1.map((el, idx) => {
                 return (
                   <SwiperSlide>
                     <img key={idx} src={el.instagram_instagroup1_src} alt={el.instagram_instagroup1_alt} />
@@ -79,7 +84,7 @@ export default (props) => {
             onSwiper={(swiper) => console.log(swiper)}
           >
             {
-              props.datainsta2.map((el, idx) => {
+              data2.map((el, idx) => {
                 return (
                   <SwiperSlide>
                     <img key={idx} src={el.instagram_instagroup2_src} alt={el.instagram_instagroup2_alt} />
