@@ -4,7 +4,6 @@ import { BrowserRouter } from 'react-router-dom';
 
 // yeonsoo
 import Lyslinebanner from './component/yeonsoo/Lyslinebanner';
-import datainfo from "./data/data.json"
 import Header from './component/joonsung/Header';
 
 import Lysfooter from './component/yeonsoo/Lysfooter';
@@ -17,11 +16,6 @@ import Instagram from './component/gyuwan/Instagram';
 // dongmin
 import Brand from './component/dongmin/Bbrand';
 import Form from './component/dongmin/Form';
-
-
-
-//data
-import datainfo from './data/data.json'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
