@@ -25,7 +25,14 @@ const Form = () => {
         });
     }
 
+    const splitParagraph = () => {
+        const text = "잘먹을까? 잘맞을까? 고민이시라면? | 무료 체험 사료로 시작해보세요!";
+        const splitText = text.split(' | ');
 
+        return splitText.map((part, index) => (
+            <p key={index}>{part}</p>
+        ));
+    }
 
     return (
         <>
@@ -36,8 +43,9 @@ const Form = () => {
                         <div className="col-6 d-flex justify-content-center">
                             <div id="formhd" className="w-100 p-0 m-0 position-rel">
                                 <h2>맞춤영양 무료 체험 프로그램</h2>
-                                <p>잘먹을까? 잘맞을까? 고민이시라면? <br></br>무료 체험 사료로 시작해보세요!</p>
+                                {splitParagraph()}
                             </div>
+
                         </div>
                         <div id="formBox"
                             className="form_interest col-6 m-0 p-0 d-flex justify-content-center align-items-lg-center mt-5" />
