@@ -54,21 +54,10 @@ function Brand(props) {
                                         </div>
 
                                         <div className='sh position-relative'>
-                                            {brand.h3 && brand.h3.split('|').map((v, i) => (
-                                                <React.Fragment key={i}>
-                                                    {v}
-                                                    <br />
-                                                </React.Fragment>
-                                            ))}
+                                            {brand.h3 && brand.h3}
 
                                             <div className='dp position-rel'>
-                                                {brand.p && brand.p.split('|').map((v, i) => (
-                                                    <React.Fragment key={i}>
-                                                        {v}
-                                                        <br />
-                                                    </React.Fragment>
-
-                                                ))}
+                                                {brand.p && brand.p}
                                             </div>
 
                                         </div>
