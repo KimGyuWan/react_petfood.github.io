@@ -30,14 +30,14 @@ const Form = () => {
         const splitText = text.split(' | ');
 
         return splitText.map((part, index) => (
-            <p key={index}>{part}</p>
+            <p className="mb-0" key={index}>{part}</p>
         ));
     }
 
     return (
         <>
             <section id="form" className="">
-                <div id="sectionForm" className="" >
+                <div id="sectionForm" className="px-4" >
                     <form action="" className="d-md-flex flex-wrap  w-100" >
 
                         <div className="col-md-6 d-md-flex justify-content-center  ">
@@ -51,7 +51,7 @@ const Form = () => {
                             <div className="list_wrap row mx-0">
                                 <div className=" col-md-6 col-lg-4" >
 
-                                    <ul>
+                                    <ul className='px-0 mb-0'>
                                         <li className="item my-2">
                                             <div className="input_box1">
                                                 <label htmlFor="name" className="p-0"></label>
@@ -94,7 +94,7 @@ const Form = () => {
                                     </ul>
                                 </div>
                                 <div className="col-md-6 col-lg-4">
-                                    <ul>
+                                    <ul className='px-0 mb-0'>
                                         <li className="item my-2">
                                             <div className="input_box1">
                                                 <label htmlFor="tel" className="p-0"></label>
@@ -108,7 +108,7 @@ const Form = () => {
                                             </div>
                                         </li>
                                     </ul>
-                                    <textarea name="" className="text position-rel my-3 col col-md-6 col-sm-6" id="tx" cols="36" rows="5"
+                                    <textarea name="" className="text position-rel my-3 col col-md-6 col-sm-6 d-block" id="tx" cols="36" rows="5"
                                         placeholder="반려동물의 특이사항을 적어주세요."></textarea>
                                 </div>
                                 <div className="check_box col-lg-4">
