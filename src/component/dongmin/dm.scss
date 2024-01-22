@@ -161,7 +161,7 @@
     position: relative;
     width: auto;
     min-height: 400px;
-    background: url(./img/form0.jpg) center no-repeat;
+    background: url(../../../public/img/dongmin/form0.jpg) left bottom no-repeat;
     color: white;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
@@ -170,7 +170,7 @@
 
 
         padding-bottom: 30vw;
-        background-position: left bottom;
+        // background-position: left bottom;
 
     }
 
@@ -178,6 +178,8 @@
         // background: none;
         // min-width: none;
         padding-bottom: 60vw;
+        background-size: 180% auto;
+        background-position: right bottom;
 
     }
 }
@@ -316,24 +318,5 @@
 }
 
 @media screen and (max-width:760px) {
-    #form {
-        #formhd {
-            position: relative;
-            right: 90px;
-            top: 20px;
-        }
-
-        .ib {
-            width: 500px;
-            display: flex;
-        }
-
-        .text {
-            margin-left: 82px;
-        }
-
-        .btn {
-            display: flex !important;
-        }
-    }
+    #form {}
 }
