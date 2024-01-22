@@ -41,7 +41,7 @@ const Form = () => {
                     <form action="" className="d-md-flex flex-wrap  w-100" >
 
                         <div className="col-md-6 d-md-flex justify-content-center  ">
-                            <div id="formhd" className="w-100 p-0 m-0  position-rel">
+                            <div id="formhd" className="w-100 p-0  mb-4  position-rel">
                                 <h2>맞춤영양 무료 체험 프로그램</h2>
                                 {splitParagraph()}
                             </div>
