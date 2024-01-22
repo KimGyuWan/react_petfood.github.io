@@ -49,13 +49,13 @@ const Form = () => {
                         </div>
                         <fieldset className="box  d-md-flex ">
                             <div className="list_wrap row mx-0">
-                                <div className=" col-md-6 col-lg-4" >
+                                <div className="col-md-5 col-lg-4" >
 
                                     <ul className='px-0 mb-0'>
                                         <li className="item my-2">
                                             <div className="input_box1">
                                                 <label htmlFor="name" className="p-0"></label>
-                                                <input type="text" name="name" id="name" defaultValue={name} onChange={onChange} placeholder="이름" />
+                                                <input type="text" className='w-100' name="name" id="name" defaultValue={name} onChange={onChange} placeholder="이름" />
 
                                             </div>
                                         </li>
@@ -93,7 +93,7 @@ const Form = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="col-md-6 col-lg-4">
+                                <div className="col-md-5 col-lg-4">
                                     <ul className='px-0 mb-0'>
                                         <li className="item my-2">
                                             <div className="input_box1">
@@ -108,7 +108,7 @@ const Form = () => {
                                             </div>
                                         </li>
                                     </ul>
-                                    <textarea name="" className="text position-rel my-3 col col-md-6 col-sm-6 d-block" id="tx" cols="36" rows="5"
+                                    <textarea name="" className="text position-rel my-3 col-md-6 col-sm-6 d-block w-100" id="tx" cols="36" rows="5"
                                         placeholder="반려동물의 특이사항을 적어주세요."></textarea>
                                 </div>
                                 <div className="check_box col-lg-4">
