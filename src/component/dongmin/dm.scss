@@ -17,6 +17,7 @@
         color: #da291c;
         text-align: center;
         font-size: 24px;
+        // font-size: 1em;
         transform: translateY(50%);
         transition: 1s;
         opacity: 1;
@@ -162,13 +163,26 @@
 #sectionForm {
     position: relative;
     width: auto;
-    height: 400px;
+    min-height: 400px;
     background: url(./img/form0.jpg) center no-repeat;
     color: white;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
-    display: flex;
-    align-items: center;
+
+    @media (max-width:1024px) {
+
+
+        padding-bottom: 30vw;
+        background-position: left bottom;
+
+    }
+
+    @media (max-width:767px) {
+        // background: none;
+        // min-width: none;
+        padding-bottom: 60vw;
+
+    }
 }
 
 
@@ -225,8 +239,8 @@
 
 
 #formhd h2,
-p {
-    margin-left: 130px;
+#formhd p {
+    // margin-left: 130px;
 }
 
 .box {
@@ -234,7 +248,95 @@ p {
     justify-content: flex-end;
 }
 
-.d-flex {
-    display: flex !important;
-    justify-content: flex-end;
+
+@media screen and (max-width:767px) {
+
+    #section-brand {
+        .our {
+            margin-left: 40px;
+        }
+
+        body {
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        img {
+            width: 80% !important;
+            max-width: 401px;
+            display: block;
+            margin: 0 auto;
+            // height: 240px;
+        }
+
+
+        .sh {
+
+            font-size: 1em;
+        }
+
+
+        .dp {
+
+            font-size: 1em;
+
+
+
+        }
+
+        .swiper-slide {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    #section-brand {
+
+
+
+        .sh {
+            font-size: 1.2em;
+        }
+
+        .dp {
+            font-size: 1em;
+        }
+
+
+        .swiper-slide {
+            display: flex;
+            flex-direction: column;
+        }
+
+    }
+
+}
+
+@media screen and (max-width:760px) {
+    #form {
+        #formhd {
+            position: relative;
+            right: 90px;
+            top: 20px;
+        }
+
+        .ib {
+            width: 500px;
+            display: flex;
+        }
+
+        .text {
+            margin-left: 82px;
+        }
+
+        .btn {
+            display: flex !important;
+        }
+    }
 }
